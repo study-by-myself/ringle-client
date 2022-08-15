@@ -7,7 +7,7 @@ import TutorRegister from './components/TutorRegister';
 
 const Routers = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route exact path="/" element={<Main />} />
         <Route exact path="/tutor/signup" element={<Signup />} />
