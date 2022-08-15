@@ -9,13 +9,13 @@ const Routers = () => {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route exact path="/" element={<Main />} />
-        <Route exact path="/tutor/signup" element={<Signup />} />
-        <Route exact path="/tutor/signin" element={<Signin />} />
-        <Route exact path="/student/signup" element={<Signup />} />
-        <Route exact path="/student/signin" element={<Signin />} />
-        <Route exact path="/tutor/register" element={<TutorRegister />} />
-        <Route exact path="/student/register" element={<StudentRegister />} />
+        <Route path="/" element={<Main />} />
+        <Route path="/tutor/signup" element={<Signup />} />
+        <Route path="/tutor/signin" element={<Signin />} />
+        <Route path="/student/signup" element={<Signup />} />
+        <Route path="/student/signin" element={<Signin />} />
+        <Route path="/tutor/register" element={<TutorRegister />} />
+        <Route path="/student/register" element={<StudentRegister />} />
       </Routes>
     </BrowserRouter>
   );
