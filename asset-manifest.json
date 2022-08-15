@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ringle-client/static/css/main.073c9b0a.css",
-    "main.js": "/ringle-client/static/js/main.864ca8a7.js",
+    "main.js": "/ringle-client/static/js/main.d3dd3400.js",
     "static/js/787.c4e7f8f9.chunk.js": "/ringle-client/static/js/787.c4e7f8f9.chunk.js",
     "index.html": "/ringle-client/index.html",
     "main.073c9b0a.css.map": "/ringle-client/static/css/main.073c9b0a.css.map",
-    "main.864ca8a7.js.map": "/ringle-client/static/js/main.864ca8a7.js.map",
+    "main.d3dd3400.js.map": "/ringle-client/static/js/main.d3dd3400.js.map",
     "787.c4e7f8f9.chunk.js.map": "/ringle-client/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.864ca8a7.js"
+    "static/js/main.d3dd3400.js"
   ]
 }
